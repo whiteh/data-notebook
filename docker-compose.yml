@@ -6,3 +6,4 @@ services:
      - "8888:8888"
     volumes:
       - ./work:/home/jovyan/work
+      - ./data:/home/jovyan/data
